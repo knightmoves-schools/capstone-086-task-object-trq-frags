@@ -20,7 +20,7 @@ function drawCard(index, description){
 function drawCards(){
     let output = '';
     
-    tasks.forEach((task, index) => output += drawCard(index, task));
+    tasks.forEach((task, index) => output += drawCard(index, task.description));
     
     return output;
 }
