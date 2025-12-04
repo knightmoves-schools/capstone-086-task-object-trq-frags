@@ -1,4 +1,8 @@
-let tasks = ['pack spikes for track meet', 'make my bed', 'walk the dog'];
+let tasks = [
+    { description: 'pack spikes for track meet', status: 'todo' },
+    { description: 'make my bed', status: 'todo' },
+    { description: 'walk the dog', status: 'todo' }
+];
             
 function drawCard(index, description){
     return `<div id="task-${index}" class="card">
